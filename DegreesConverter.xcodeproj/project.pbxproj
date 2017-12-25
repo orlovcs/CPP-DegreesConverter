@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		651AE2631FF0B64F0033FD8C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 651AE2621FF0B64F0033FD8C /* main.cpp */; };
+		652926281FF0BBCF000B109A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 652926271FF0BBCF000B109A /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		651AE25F1FF0B64F0033FD8C /* DegreesConverter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DegreesConverter; sourceTree = BUILT_PRODUCTS_DIR; };
-		651AE2621FF0B64F0033FD8C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		651AE25F1FF0B64F0033FD8C /* DegreesConverter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = DegreesConverter; path = "/Users/Human/Google Drive/Code/XCode 8/CPP-DegreesConverter/build/Debug/DegreesConverter"; sourceTree = "<absolute>"; };
+		652926271FF0BBCF000B109A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,25 +41,8 @@
 		651AE2561FF0B64F0033FD8C = {
 			isa = PBXGroup;
 			children = (
-				651AE2611FF0B64F0033FD8C /* DegreesConverter */,
-				651AE2601FF0B64F0033FD8C /* Products */,
+				652926271FF0BBCF000B109A /* main.cpp */,
 			);
-			sourceTree = "<group>";
-		};
-		651AE2601FF0B64F0033FD8C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				651AE25F1FF0B64F0033FD8C /* DegreesConverter */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		651AE2611FF0B64F0033FD8C /* DegreesConverter */ = {
-			isa = PBXGroup;
-			children = (
-				651AE2621FF0B64F0033FD8C /* main.cpp */,
-			);
-			path = DegreesConverter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +88,7 @@
 				en,
 			);
 			mainGroup = 651AE2561FF0B64F0033FD8C;
-			productRefGroup = 651AE2601FF0B64F0033FD8C /* Products */;
+			productRefGroup = 651AE2561FF0B64F0033FD8C;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -119,7 +102,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				651AE2631FF0B64F0033FD8C /* main.cpp in Sources */,
+				652926281FF0BBCF000B109A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
