@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		652926281FF0BBCF000B109A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 652926271FF0BBCF000B109A /* main.cpp */; };
+		6529262A1FF0BE93000B109A /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 652926291FF0BE93000B109A /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		651AE25F1FF0B64F0033FD8C /* DegreesConverter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = DegreesConverter; path = "/Users/Human/Google Drive/Code/XCode 8/CPP-DegreesConverter/build/Debug/DegreesConverter"; sourceTree = "<absolute>"; };
 		652926271FF0BBCF000B109A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		652926291FF0BE93000B109A /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		651AE2561FF0B64F0033FD8C = {
 			isa = PBXGroup;
 			children = (
+				652926291FF0BE93000B109A /* Makefile */,
 				652926271FF0BBCF000B109A /* main.cpp */,
 			);
 			sourceTree = "<group>";
@@ -102,6 +105,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6529262A1FF0BE93000B109A /* Makefile in Sources */,
 				652926281FF0BBCF000B109A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
