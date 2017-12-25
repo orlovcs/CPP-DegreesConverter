@@ -10,7 +10,7 @@ int main(int argc, const char * argv[]) {
         std::cout << f << " farenheit in celsius is " << (f - 32)/1.8<< std::endl;
 
     }else{
-        std::cout << "Enter Celsuis" << std::endl;
+        std::cout << "Enter celsuis" << std::endl;
         double c;
         std::cin >> c;
         std::cout << c << " celsius in farenheit is " << c * 1.8 + 32<< std::endl;
