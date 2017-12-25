@@ -1,7 +1,6 @@
 CC=g++
 CFLAGS= -c -std=c++14
-
-degconnvert:  main.o
-$(CC) main.o -o degconnvert
+degconvrt:  main.o
+	$(CC) main.o -o degconvrt
 main.o: main.cpp
-$(CC) $(CFLAGS) main.cpp
+	$(CC) $(CFLAGS) main.cpp
