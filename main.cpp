@@ -1,3 +1,6 @@
+/*---///
+Nikita Orlov|2017|DegreesConverter|C++|orlovcs
+*///---
 #include <iostream>
 #include <string>
 int main(int argc, const char * argv[]) {
